@@ -69,4 +69,5 @@ static void verify_splice(void)
 
 static struct tst_test test = {
 	.test_all = verify_splice,
+	.min_kver = "5.10",
 };
